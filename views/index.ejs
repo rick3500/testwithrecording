@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <% if (locals.error) { %>
+        <p>
+            <%= locals.error %>
+        </p>
+        <% } %>
+            <form method="POST" action="/login">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required>
+                </div>
+
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+</body>
+
+</html>
