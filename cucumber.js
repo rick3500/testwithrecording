@@ -9,9 +9,9 @@ if (!fs.existsSync(reportsDirectory)) {
 }
 
 exports.config = {
-  specs: ['./test/features/**/*.feature'],
+  specs: ['./features/**/*.feature'],
   cucumberOpts: {
-    require: ['./test/step_definitions/**/*.js'],
+    require: ['./step_definitions/**/*.js'],
     format: ['json:reports/cucumber.json', 'html:reports/cucumber.html'],
     strict: true
   },

@@ -1,0 +1,34 @@
+{
+  "name": "testwithrecording",
+  "version": "1.0.0",
+  "description": "Testing Cucumber",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick3500/testwithrecording.git"
+  },
+  "keywords": [
+    "help"
+  ],
+  "author": "Rick Simmons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick3500/testwithrecording/issues"
+  },
+  "homepage": "https://github.com/rick3500/testwithrecording#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^6.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
